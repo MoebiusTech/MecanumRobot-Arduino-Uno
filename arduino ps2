@@ -140,8 +140,8 @@ void turnRight(int speed) { //小车右转
 
 void forward(int speed) { //小车前进
   digitalWrite(DIRA, HIGH);
-  digitalWrite(DIRB, HIGH);
-  digitalWrite(DIRC, LOW);
+  digitalWrite(DIRB, LOW);
+  digitalWrite(DIRC, HIGH);
   digitalWrite(DIRD, LOW);
   analogWrite(PWMA, speed);
   analogWrite(PWMB, speed);
@@ -151,8 +151,8 @@ void forward(int speed) { //小车前进
 
 void back(int speed) { //小车后退
   digitalWrite(DIRA, LOW);
-  digitalWrite(DIRB, LOW);
-  digitalWrite(DIRC, HIGH);
+  digitalWrite(DIRB, HIGH);
+  digitalWrite(DIRC, LOW);
   digitalWrite(DIRD, HIGH);
   analogWrite(PWMA, speed);
   analogWrite(PWMB, speed);
@@ -175,10 +175,10 @@ void stop() // 停止；
 //
 void motor_pmove_left()
 {
-  digitalWrite(DIRA,HIGH);
+  digitalWrite(DIRA,LOW);
   digitalWrite(DIRB,LOW);
   digitalWrite(DIRC,HIGH);
-  digitalWrite(DIRD,LOW);
+  digitalWrite(DIRD,HIGH);
 
   analogWrite(PWMA,200);
   analogWrite(PWMB,200);
@@ -187,13 +187,13 @@ void motor_pmove_left()
 
 }
 
-//车体右平移
+//车体右平移 
 void motor_pmove_right()
 {
-  digitalWrite(DIRA,LOW);
+  digitalWrite(DIRA,HIGH);
   digitalWrite(DIRB,HIGH);
   digitalWrite(DIRC,LOW);
-  digitalWrite(DIRD,HIGH);
+  digitalWrite(DIRD,LOW);
 
   analogWrite(PWMA,200);
   analogWrite(PWMB,200);
@@ -243,14 +243,14 @@ void loop() {
 //左转；
     if (ps2x.Button(PSB_PAD_LEFT)) {
       Serial.println("turn left ");
-      speed = 200;
+      speed = 150;//200
       turnLeft(speed);
     }
 
 //右转；
     if (ps2x.Button(PSB_PAD_RIGHT)) {
       Serial.println("turn right");
-      speed = 200;
+      speed = 150;//200
       turnRight(speed);
     }
 // Stop
