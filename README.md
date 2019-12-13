@@ -1,2 +1,2 @@
-# -mecanum-robot-kit-for-STM32&Arduino
+# -mecanum-robot-kit-for-Arduino
 mecanum robot kit 
