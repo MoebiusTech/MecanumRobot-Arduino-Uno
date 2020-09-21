@@ -1,4 +1,4 @@
-1. # -mecanum-robot-kit-for-Arduino uno -PCA9685-HR8833
+1. # mecanum-robot-kit-for-Arduino uno -PCA9685-HR8833
 2. mecanum robot kit 
 3. Power supply: 6-11.1v; For example, if you use 12V motor, you can use 11.1V 3s lipo battery.
 4. Servos power supply: 5-8.4v, and select the power supply according to the model of the servos; if you don't use servos, you needn't connect to servo power.
