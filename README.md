@@ -12,4 +12,5 @@
  NOTE: Requires the PS2X_lib installed.
 // 1) open Sketch -> Include Library -> Add .ZIP Library
 // 2) select "FaBoPWM_PCA9685"
-![Encoder interface](https://github.com/MoebiusTech/MecanumRobot-ArduinoMega2560/blob/master/Encoder%20interface.png "")
+  ### Note
+![Encoder interface](https://github.com/MoebiusTech/MecanumRobot-ArduinoMega2560/blob/master/Encoder%20interface.png "Encoder interface")
