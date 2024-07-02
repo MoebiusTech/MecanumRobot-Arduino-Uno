@@ -12,3 +12,4 @@
  NOTE: Requires the PS2X_lib installed.
 // 1) open Sketch -> Include Library -> Add .ZIP Library
 // 2) select "FaBoPWM_PCA9685"
+![Encoder interface](Encoder interface)
