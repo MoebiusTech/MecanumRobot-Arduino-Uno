@@ -14,4 +14,4 @@
 // 2) select "FaBoPWM_PCA9685"
   ### Note
   change the encoder interface 
-![Encoder interface](https://github.com/MoebiusTech/MecanumRobot-ArduinoMega2560/blob/master/Encoder%20interface.png "Encoder interface")
+![Encoder interface](https://github.com/MoebiusTech/MecanumRobot-ArduinoMega2560/blob/master/Motor%20interface.png "Encoder interface")
